@@ -4,30 +4,165 @@ export const servicesList = [
     title: "Web Design",
     description:
       "We create visually appealing and user-friendly websites that are easy to navigate and understand.",
+    keyFeatures: [
+      "Responsive Design",
+      "User-Friendly Interface",
+      "Custom Graphics",
+      "SEO Optimization",
+      "Fast Loading Times",
+    ],
+    process: [
+      "Consultation",
+      "Planning",
+      "Design",
+      "Development",
+      "Testing",
+      "Launch",
+    ],
+    testimonials: [
+      {
+        client: "Client A",
+        feedback:
+          "Amazing web design services that transformed our online presence!",
+      },
+      {
+        client: "Client B",
+        feedback:
+          "The team created a stunning website that is both functional and beautiful.",
+      },
+    ],
   },
   {
     id: 2,
     title: "Web Development",
     description:
       "We develop high-quality websites using cutting-edge technologies like React, Next.js, and WordPress.",
+    keyFeatures: [
+      "Custom Web Development",
+      "E-commerce Solutions",
+      "Content Management Systems",
+      "API Integration",
+      "Performance Optimization",
+    ],
+    process: [
+      "Consultation",
+      "Planning",
+      "Development",
+      "Testing",
+      "Deployment",
+      "Maintenance",
+    ],
+    testimonials: [
+      {
+        client: "Client C",
+        feedback:
+          "Our website's performance and functionality improved drastically after their work.",
+      },
+      {
+        client: "Client D",
+        feedback:
+          "Highly skilled developers who delivered exactly what we needed.",
+      },
+    ],
   },
   {
     id: 3,
     title: "Social Management",
     description:
       "We help businesses connect with their target audience through social media, email marketing, and content creation.",
+    keyFeatures: [
+      "Social Media Strategy",
+      "Content Creation",
+      "Community Management",
+      "Social Media Advertising",
+      "Analytics and Reporting",
+    ],
+    process: [
+      "Consultation",
+      "Strategy Development",
+      "Content Creation",
+      "Execution",
+      "Monitoring",
+      "Optimization",
+    ],
+    testimonials: [
+      {
+        client: "Client E",
+        feedback:
+          "Our social media engagement skyrocketed thanks to their expertise.",
+      },
+      {
+        client: "Client F",
+        feedback:
+          "Effective strategies that helped us reach a larger audience.",
+      },
+    ],
   },
   {
     id: 4,
     title: "Branding",
     description:
       "We create memorable and engaging branding materials to help businesses stand out from the competition.",
+    keyFeatures: [
+      "Logo Design",
+      "Brand Identity",
+      "Print Materials",
+      "Digital Assets",
+      "Brand Guidelines",
+    ],
+    process: [
+      "Consultation",
+      "Research",
+      "Concept Development",
+      "Design",
+      "Revision",
+      "Delivery",
+    ],
+    testimonials: [
+      {
+        client: "Client G",
+        feedback:
+          "Their branding work gave our company a fresh and professional look.",
+      },
+      {
+        client: "Client H",
+        feedback:
+          "Creative and impactful branding that truly represents our values.",
+      },
+    ],
   },
   {
     id: 5,
     title: "Advertisement",
     description:
       "We help businesses create engaging and effective ads on various platforms such as Facebook, Instagram, and Google Ads.",
+    keyFeatures: [
+      "Ad Campaign Strategy",
+      "Creative Ad Design",
+      "Target Audience Analysis",
+      "A/B Testing",
+      "Performance Monitoring",
+    ],
+    process: [
+      "Consultation",
+      "Strategy Development",
+      "Ad Creation",
+      "Campaign Launch",
+      "Performance Tracking",
+      "Optimization",
+    ],
+    testimonials: [
+      {
+        client: "Client I",
+        feedback:
+          "Our ad campaigns achieved great results, increasing our ROI significantly.",
+      },
+      {
+        client: "Client J",
+        feedback:
+          "Effective ad strategies that helped us reach our marketing goals.",
+      },
+    ],
   },
 ];
 
