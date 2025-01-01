@@ -5,8 +5,8 @@ import { Link } from "react-router-dom";
 const ContactPage = () => {
   return (
     <div className="w-full h-full min-h-screen bg-blue-950 text-white p-8">
-      <h1 className="text-5xl font-bold tracking-tighter font-rowdies text-center mb-8">
-        Contact Us
+      <h1 className="text-5xl md:text-7xl font-bold tracking-tighter font-rowdies text-center mb-8">
+        <span className="text-teal-400">Contact</span> Us
       </h1>
       <div className="flex flex-col md:flex-row gap-8">
         {/* Contact Info */}
@@ -86,7 +86,7 @@ const ContactPage = () => {
             cup of coffee and a chat about how we can help your business.
           </p>
           <Link
-            to="/visit-us"
+            to="/services"
             className="bg-teal-400 hover:bg-teal-600 w-fit md:mx-auto text-white font-bold px-4 py-2 rounded-lg mt-4"
           >
             Learn More
