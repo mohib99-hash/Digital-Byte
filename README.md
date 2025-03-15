@@ -1,12 +1,12 @@
 # DigitalByte Agency 🚀
 
-![DigitalByte Hero](https://via.placeholder.com/1920x800.png?text=DigitalByte+Hero+Section)
-
 A modern digital agency website specializing in crafting user-friendly digital solutions for businesses. Built with cutting-edge technologies and smooth animations.
 
 [![Live Demo](https://img.shields.io/badge/Live_Demo-000?style=for-the-badge&logo=vercel&logoColor=white)](https://digitalbyteagency.vercel.app)
 ![React](https://img.shields.io/badge/React-18.3.1-61DAFB?style=for-the-badge&logo=react)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4.16-06B6D4?style=for-the-badge&logo=tailwind-css)
+
+![DigitalByte Hero](src/assets/md-home.jpeg)
 
 ## 🌟 Features
 
@@ -45,8 +45,8 @@ A modern digital agency website specializing in crafting user-friendly digital s
 
 | Description | Preview | Mobile View |
 |-------------|---------|-------------|
-| **Homepage** | ![Home Desktop](https://via.placeholder.com/300x200.png?text=Home+Desktop) | ![Home Mobile](https://via.placeholder.com/150x200.png?text=Home+Mobile) |
-| **Services** | ![Services Desktop](https://via.placeholder.com/300x200.png?text=Services+Desktop) | ![Services Mobile](https://via.placeholder.com/150x200.png?text=Services+Mobile) |
+| **Homepage** | ![Home Desktop](src/assets/md-home.jpeg) | ![Home Mobile](src/assets/md-home-m.jpeg) |
+| **Services** | ![Services Desktop](src/assets/md-services.jpeg) | ![Services Mobile](src/assets/md-services-m.jpeg) |
 
 ## 🌐 Live Demo
 
