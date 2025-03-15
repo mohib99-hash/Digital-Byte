@@ -2,6 +2,9 @@ import React, { useState } from "react";
 import logo from "../assets/logo.png";
 import { NavLink } from "react-router-dom";
 import { IoClose, IoMenu } from "react-icons/io5";
+import { FaSquareXTwitter } from "react-icons/fa6";
+import { FaInstagramSquare } from "react-icons/fa";
+import { IoLogoTiktok } from "react-icons/io5";
 
 const navLinks = [
   { name: "Home", path: "/", exact: true },
@@ -13,7 +16,7 @@ const navLinks = [
 const Navbar = () => {
   const [openNav, setOpenNav] = useState(false);
   return (
-    <nav className="w-full border-b border-blue-400 bg-blue-950 px-4 py-2 flex justify-between items-center text-white relative">
+    <nav className="w-full border-b-2 border-teal-400 bg-blue-950 px-4 py-2 flex justify-between items-center text-white relative">
       {/* Logo */}
       <NavLink to="/" className="flex items-center gap-4">
         <img

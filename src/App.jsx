@@ -6,6 +6,8 @@ import Services from "./pages/Services";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import ServicePage from "./components/ServicePage";
+import NotFound from "./pages/NotFound";
+import Footer from "./common/Footer";
 
 function App() {
   return (
@@ -17,7 +19,9 @@ function App() {
         <Route path="/services/service" element={<ServicePage />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
+      <Footer />
     </main>
   );
 }
