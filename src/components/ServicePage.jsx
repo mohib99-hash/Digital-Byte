@@ -16,7 +16,7 @@ import socialill from "../assets/ills/social-ill.jpg";
 import brandingill from "../assets/ills/brand-ill.jpg";
 import adill from "../assets/ills/ad-ill.jpg";
 
-import website from "../assets/website.jpg";
+import website from "../assets/Website.jpg";
 
 export const servicesList = [
   {
