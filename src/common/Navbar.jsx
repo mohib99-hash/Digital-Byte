@@ -48,12 +48,12 @@ const Navbar = () => {
       <div className="hidden md:flex items-center gap-4">
         <NavLink
           className="bg-blue-800 py-2 px-4 hover:bg-blue-400 rounded-lg text-white font-bold"
-          aria-label="Get started with us"
-          title="Get started"
+          aria-label="Hire me"
+          title="Hire me"
           to="/services"
           onClick={() => setOpenNav(false)}
         >
-          Get Started
+          Hire Me
         </NavLink>
         <NavLink
           className="border-blue-800 py-2 px-4 hover:bg-blue-400 hover:text-white bg-white rounded-lg bg-none text-blue-800 font-bold"
@@ -94,12 +94,12 @@ const Navbar = () => {
               <div className="md:hidden flex items-center gap-4">
                 <NavLink
                   className="bg-blue-800 py-2 px-4 hover:bg-blue-400 rounded-lg text-white font-bold"
-                  aria-label="Get started with us"
-                  title="Get started"
+                  aria-label="Hire me"
+                  title="Hire me"
                   to="/services"
                   onClick={() => setOpenNav(false)}
                 >
-                  Get Started
+                  Hire Me
                 </NavLink>
                 <NavLink
                   className="border-blue-800 py-2 px-4 hover:bg-blue-400 hover:text-white bg-white rounded-lg bg-none text-blue-800 font-bold"
